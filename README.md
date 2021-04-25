@@ -8,6 +8,7 @@ The output code can be changed by modifying the `genDeleteTableCode` function an
 
 ## Usage
 GitHub Pages↓
+[https://kkmtyyz.github.io/ddl-tool/](https://kkmtyyz.github.io/ddl-tool/)
 
 mple, if you open `test_ddl.sql` and check the `user` table, the following code will be output.
 
