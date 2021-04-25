@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+<header>
+    <title>DDL TOOL</title>
+    <meta charset="UTF-8">
+</header>
+<body style="margin:0 auto; width:800px;">
+    <fieldset>
+        <legend>1. DDLファイルオープン</legend>
+        <input type="file" id="ddlFile">
+    </fieldset>
+
+    <fieldset style="height:300px; overflow:auto;">
+        <legend>2. テーブル選択</legend>
+        <form name="tableCheckboxForm">
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>3. Javaコード生成</legend>
+        <button type="button" onclick="genJavaCode()">このボタンを押す</button>
+    </fieldset>
+
+    <fieldset>
+    <legend>4. Javaコード</legend>
+        <div id="result"></div>
+    </fieldset>
+    <script src="tool.js"></script>
+</body>
+</html>
