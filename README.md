@@ -7,7 +7,7 @@ It generates Java code that can be used to delete and insert records.
 The output code can be changed by modifying the `genDeleteTableCode` function and `genInsertJavaCode` function.
 
 ## Usage
-GitHub Pages↓
+GitHub Pages↓  
 [https://kkmtyyz.github.io/ddl-tool/](https://kkmtyyz.github.io/ddl-tool/)
 
 mple, if you open `test_ddl.sql` and check the `user` table, the following code will be output.
