@@ -1,7 +1,7 @@
 # DDL TOOL
 
 This is a tool to parse DDL file of MySQL.
-It generates code that can be used to test your program while considering foreign key constraints into account.
+It generates code that can be used to write your program test code while considering foreign key constraints into account.
 
 It generates Java code that can be used to delete and insert records.
 The output code can be changed by modifying the `genDeleteTableCode` function and `genInsertJavaCode` function.
@@ -10,7 +10,7 @@ The output code can be changed by modifying the `genDeleteTableCode` function an
 GitHub Pages↓  
 [https://kkmtyyz.github.io/ddl-tool/](https://kkmtyyz.github.io/ddl-tool/)
 
-mple, if you open `test_ddl.sql` and check the `user` table, the following code will be output.
+Example, if you open `test_ddl.sql` and check the `user` table, the following code will be output.
 
 ![usage 01](usage_01.PNG)
 
